@@ -1,0 +1,11 @@
+event_name,event_category,funnel_stage,is_key_event,required_parameters,business_question,success_condition,owner
+page_view,engagement,Landing,No,page_location|page_title|utm_source|utm_medium|utm_campaign,Which campaign pages are receiving traffic?,All campaign landing pages receive page_view events,Analytics
+scroll_60,engagement,Engagement,No,percent_scrolled|page_location,Are users consuming page content?,Scroll event fires at 60 percent depth,Analytics
+cta_click,engagement,Intent,No,cta_text|cta_location|page_location,Which CTA buttons attract clicks?,CTA clicks are captured with text and location,Marketing
+call_click,lead,Lead Intent,Yes,phone_number|page_location|utm_campaign,Which campaigns drive phone enquiries?,Call click is marked as key event,Marketing
+whatsapp_click,lead,Lead Intent,Yes,button_text|page_location|utm_campaign,Which campaigns drive WhatsApp enquiries?,WhatsApp click is marked as key event,Marketing
+form_start,lead,Lead Funnel,No,form_id|page_location|utm_campaign,Are users starting the lead form?,Form start event fires once per form attempt,Analytics
+form_submit,lead,Conversion,Yes,form_id|lead_type|page_location|utm_campaign,Which campaigns generate form leads?,Form submit is marked as key event,Analytics
+thank_you_view,lead,Conversion,Yes,page_location|lead_type|utm_campaign,Are successful leads reaching thank-you page?,Thank-you page view is marked as key event,Analytics
+qualified_lead,crm,Lead Quality,Yes,lead_id|lead_status|lead_quality|utm_campaign,Which campaigns generate qualified leads?,CRM lead quality is mapped back to campaign,Sales Ops
+booking_confirmed,crm,Sales Outcome,Yes,lead_id|meeting_status|utm_campaign,Which campaigns create booked meetings?,Booked meeting is captured from CRM feedback,Sales Ops
