@@ -1,0 +1,11 @@
+tag_name,tag_type,trigger_name,trigger_type,trigger_condition,ga4_event_name,qa_status,priority,notes
+GA4 Config,Google Tag,Initialization - All Pages,Page View,All pages,page_view,Ready,High,Base GA4 tag should fire on all pages
+GA4 Event - Scroll 60,GA4 Event,Scroll 60%,Scroll Depth,Vertical scroll depth equals 60%,scroll_60,Ready,Medium,Useful engagement signal
+GA4 Event - CTA Click,GA4 Event,Primary CTA Click,Click,Click text contains Book OR Enquire,cta_click,Ready,Medium,Track intent before form start
+GA4 Event - Call Click,GA4 Event,Phone Link Click,Just Links,Click URL contains tel:,call_click,Ready,High,Lead intent event
+GA4 Event - WhatsApp Click,GA4 Event,WhatsApp Link Click,Just Links,Click URL contains wa.me OR whatsapp,whatsapp_click,Ready,High,Lead intent event
+GA4 Event - Form Start,GA4 Event,Lead Form Start,Custom Event,form_start dataLayer event,form_start,Needs QA,High,Requires form_start dataLayer event
+GA4 Event - Form Submit,GA4 Event,Lead Form Submit,Custom Event,form_submit dataLayer event,form_submit,Needs QA,High,Primary conversion event
+GA4 Event - Thank You Page,GA4 Event,Thank You Page View,Page View,Page URL contains thank-you,thank_you_view,Ready,High,Backup conversion event
+GA4 Event - Qualified Lead,CRM Import,CRM Lead Quality Upload,Offline Import,lead_status equals qualified,qualified_lead,Planned,High,Requires CRM feedback import process
+GA4 Event - Booking Confirmed,CRM Import,CRM Meeting Status Upload,Offline Import,meeting_status equals booked,booking_confirmed,Planned,High,Requires sales team CRM hygiene
