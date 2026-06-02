@@ -116,6 +116,12 @@ The Streamlit dashboard includes:
 
 ---
 
+## Live App Preview
+
+![GTM GA4 Dashboard Demo](https://github.com/user-attachments/assets/2ca27b02-b775-429e-b6d8-3d641e6d741d)
+
+---
+
 ## Public Portfolio Positioning
 
 > Designed a GTM + GA4 measurement planning dashboard for lead-generation campaigns, including UTM governance, event taxonomy, key event mapping, GTM trigger planning, QA checks, and reporting-readiness scoring.
